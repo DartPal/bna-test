@@ -1,3 +1,30 @@
 {
-    "title": "text tratata"
+    "header": {
+        "home": "Home",
+        "xeptt_card": "XEPPT Card",
+        "statements": "Statements"
+    },
+    "home_page": {
+        "balance": {
+            "title": "XEPPT Account Balance"
+        },
+        "cards": {
+            "title": "XEPPT Prepaid Card",
+            "available_balance": "Available Balance",
+            "new_card": "Order a new card"
+        },
+        "transactions": {
+            "title": "Transactions",
+            "list": {
+                "all": "All",
+                "card": "XEPPT Card",
+                "show_more": "Show more"
+            }
+        },
+        "accounts": {
+            "title": "Bank Account and Cards",
+            "add_money": "Add money",
+            "link_new": "Link a card or bank"
+        }
+    }
 }

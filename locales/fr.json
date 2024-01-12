@@ -1,0 +1,30 @@
+{
+    "header": {
+        "home": "Maison",
+        "xeptt_card": "XEPPT Carte",
+        "statements": "Déclarations"
+    },
+    "home_page": {
+        "balance": {
+            "title": "XEPPT Solde du Compte"
+        },
+        "cards": {
+            "title": "XEPPT Carte Prépayée",
+            "available_balance": "Solde Disponible",
+            "new_card": "Commandez une nouvelle carte"
+        },
+        "transactions": {
+            "title": "Transactions",
+            "list": {
+                "all": "Tout",
+                "card": "XEPPT Carte",
+                "show_more": "Montre plus"
+            }
+        },
+        "accounts": {
+            "title": "Compte Bancaire et Cartes",
+            "add_money": "Ajouter de l'argent",
+            "link_new": "Associer une carte ou une banque"
+        }
+    }
+}
