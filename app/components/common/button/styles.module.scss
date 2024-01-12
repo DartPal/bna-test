@@ -1,0 +1,28 @@
+.root {
+  border: none;
+  background: none;
+  padding: 0;
+  border-radius: 100px;
+
+  &.default-size {
+    padding: 0;
+  }
+
+  &.small {
+    padding: 1024px;
+  }
+
+  &.large {
+    padding: 13px 127px;
+  }
+
+  &.light {
+    background: var(--primary-light-lighter);
+    color: var(--secondary-light);
+  }
+
+  &.dark {
+    background: var(--secondary-light);
+    color: var(--primary-light);
+  }
+}
