@@ -1,0 +1,14 @@
+.root {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--primary-light);
+  text-decoration: none;
+  padding: 16px 32px;
+  transition: .3s;
+
+  &.isActive, &:hover {
+    border-radius: 30px;
+    background: var(--secondary);
+  }
+}
