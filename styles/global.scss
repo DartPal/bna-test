@@ -1,4 +1,18 @@
 :root {
+    --main: #3D3D3D;
+    --main-dark: #201E1B;
+
+    --primary-light-lighter: #FDF1DC;
+    --primary-lighter: #FFF8EC;
+    --primary-light: #F5CC82;
+    --primary: #ffb021;
+    --primary-dark: #DB9E2F;
+    --primary-darker: #BE8317;
+
+    --success: #0F9D58;
+
+    --secondary-light: #353535;
+    --secondary: #282828;
 }
 
 body {
@@ -8,7 +22,6 @@ body {
 
 * {
     box-sizing: border-box;
-    font-family: SFProDisplay, sans-serif;
 }
 
 h1,

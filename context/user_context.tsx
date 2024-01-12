@@ -3,6 +3,7 @@ import {createContext, FC, ReactNode} from 'react';
 interface IUserContext {
     firstName: string;
     lastName: string;
+    avatar?: string;
 }
 
 export const UserContext = createContext<IUserContext>({} as IUserContext)
