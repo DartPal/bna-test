@@ -9,14 +9,13 @@ const Index = () => {
         cards,
         balances,
     } = usePayment()
-    return <div>
-        <MainPageLayout
-            accounts={accounts}
-            transactions={transactions}
-            cards={cards}
-            balances={balances}
-        />
-    </div>;
+
+    return <MainPageLayout
+        accounts={accounts}
+        transactions={transactions}
+        cards={cards}
+        balances={balances}
+    />;
 };
 
 export default Index;
