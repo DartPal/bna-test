@@ -3,4 +3,11 @@
   margin: 72px auto 32px;
   gap: 56px;
   justify-content: space-between;
+  display: flex;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
 }

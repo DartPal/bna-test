@@ -1,5 +1,5 @@
 export enum ECurrency {
-    CANADIAN = "$"
+    CANADIAN = "canadian"
 }
 
 export enum ECardStatus {
