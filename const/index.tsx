@@ -10,3 +10,5 @@ export const paymentSystems = {
         Icon: <VisaIcon />
     }
 }
+
+export const supportedLanguages = ["en", "fr"]

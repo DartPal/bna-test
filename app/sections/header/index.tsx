@@ -17,7 +17,9 @@ const Header = () => {
     const {t, i18n} = useTranslation(undefined, {keyPrefix: "header"})
 
     const handleChangeLanguage = () => {
-        i18n.changeLanguage(i18n.language === "en" ? "fr" : "en")
+        const lang = i18n.language === "en" ? "fr" : "en"
+        i18n.changeLanguage(lang)
+        localStorage.setItem("language", lang)
     }
 
     return (
