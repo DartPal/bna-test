@@ -22,7 +22,11 @@ const Button: FC<IProps & ButtonHTMLAttributes<HTMLButtonElement>> = ({
         [className, size, variant],
     );
 
-    return <button className={rootStyles} {...props}>{children}</button>;
+    return (
+        <button className={rootStyles} {...props}>
+            {children}
+        </button>
+    );
 };
 
 export default Button;

@@ -1,8 +1,8 @@
-import React, {FC, ReactNode, useMemo} from 'react';
+import React, { FC, ReactNode, useMemo } from 'react';
 import Link from 'next/link';
-import styles from "./styles.module.scss"
+import styles from './styles.module.scss';
 import classNames from 'classnames/bind';
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
 
 interface IProps {
     href: string;
@@ -10,13 +10,19 @@ interface IProps {
     className?: string;
 }
 
-const cx = classNames.bind(styles)
+const cx = classNames.bind(styles);
 
-const NavLink: FC<IProps> = ({ href, className, children}) => {
-    const router = useRouter()
-    const rootStyles = useMemo(() => cx([
-        styles.root, {isActive: router.pathname === href}, className
-    ]), [className, href, router])
+const NavLink: FC<IProps> = ({ href, className, children }) => {
+    const router = useRouter();
+    const rootStyles = useMemo(
+        () =>
+            cx([
+                styles.root,
+                { isActive: router.pathname === href },
+                className,
+            ]),
+        [className, href, router],
+    );
 
     return (
         <Link href={href} className={rootStyles}>

@@ -1,18 +1,18 @@
 .root {
-  border-radius: 100px;
-  border: 1px solid var(--primary-dark);
-  background: var(--white);
-  color: var(--primary-dark);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 125%;
+    border-radius: 100px;
+    border: 1px solid var(--primary-dark);
+    background: var(--white);
+    color: var(--primary-dark);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 125%;
 
-  @media (max-width: 767px) {
-    font-size: 14px !important;
-  }
+    @media (max-width: 767px) {
+        font-size: 14px !important;
+    }
 
-  &.isActive {
-    color: var(--white);
-    background: var(--primary-dark);
-  }
+    &.isActive {
+        color: var(--white);
+        background: var(--primary-dark);
+    }
 }

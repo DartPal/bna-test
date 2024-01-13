@@ -1,19 +1,19 @@
 .wrapper {
-  position: relative;
+    position: relative;
 
-  .planet {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    .planet {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
 
-    @media (max-width: 1024px) {
-      display: none;
+        @media (max-width: 1024px) {
+            display: none;
+        }
+
+        @media (max-width: 1343px) {
+            transform: scale(0.7);
+            bottom: -30px;
+        }
     }
-
-    @media (max-width: 1343px) {
-      transform: scale(0.7);
-      bottom: -30px;
-    }
-  }
 }

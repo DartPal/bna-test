@@ -1,7 +1,7 @@
-import React, {FC, ReactNode, useMemo} from 'react';
+import React, { FC, ReactNode, useMemo } from 'react';
 import Header from '@sections/header';
-import styles from "./styles.module.scss"
-import PlanetImage from "@svg/planet.svg"
+import styles from './styles.module.scss';
+import PlanetImage from '@svg/planet.svg';
 import classNames from 'classnames/bind';
 
 interface IProps {
@@ -9,11 +9,12 @@ interface IProps {
     className: string;
 }
 
-const cx = classNames.bind(styles)
+const cx = classNames.bind(styles);
 const GlobalProvider: FC<IProps> = ({ children, className }) => {
-    const rootStyles = useMemo(() => cx([
-        styles.wrapper, className
-    ]), [className])
+    const rootStyles = useMemo(
+        () => cx([styles.wrapper, className]),
+        [className],
+    );
 
     return (
         <div className={rootStyles}>

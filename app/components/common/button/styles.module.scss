@@ -1,35 +1,35 @@
 .root {
-  border: none;
-  background: none;
-  padding: 0;
-  border-radius: 100px;
-  transition: .3s;
-
-  &.default-size {
+    border: none;
+    background: none;
     padding: 0;
-  }
+    border-radius: 100px;
+    transition: 0.3s;
 
-  &.small {
-    padding: 10px 24px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-  }
+    &.default-size {
+        padding: 0;
+    }
 
-  &.large {
-    padding: 13px 24px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-  }
+    &.small {
+        padding: 10px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
 
-  &.light {
-    background: var(--primary-light-lighter);
-    color: var(--secondary-light);
-  }
+    &.large {
+        padding: 13px 24px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
 
-  &.dark {
-    background: var(--secondary-light);
-    color: var(--primary-light);
-  }
+    &.light {
+        background: var(--primary-light-lighter);
+        color: var(--secondary-light);
+    }
+
+    &.dark {
+        background: var(--secondary-light);
+        color: var(--primary-light);
+    }
 }

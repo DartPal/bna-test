@@ -1,14 +1,19 @@
-import {ECardStatus, ECurrency, EPaymentSystem, ETransactionType} from './enum';
+import {
+    ECardStatus,
+    ECurrency,
+    EPaymentSystem,
+    ETransactionType,
+} from './enum';
 
 export type TAccount = {
     name: string;
     card: number;
-}
+};
 
 export type TBalance = {
     currency: ECurrency;
     amount: number;
-}
+};
 
 export type TCard = {
     status: ECardStatus;
@@ -17,12 +22,12 @@ export type TCard = {
     system: EPaymentSystem;
     card: number;
     card_image: string;
-}
+};
 
 export type TTransaction = {
-    type: ETransactionType,
+    type: ETransactionType;
     name: string;
     date: number;
     amount: number;
-    currency: ECurrency
-}
+    currency: ECurrency;
+};
