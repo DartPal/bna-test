@@ -9,8 +9,8 @@ export enum ECardStatus {
 }
 
 export enum EPaymentSystem {
-    VISA = "Visa",
-    MASTERCARD = "Mastercard"
+    VISA = "visa",
+    MASTERCARD = "mastercard"
 }
 
 export enum ETransactionType {

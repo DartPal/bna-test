@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding: 19px 22px 21px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 312px;
+  height: 196px;
+
+  .amount {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .description, .number {
+    color: var(--white);
+  }
+}

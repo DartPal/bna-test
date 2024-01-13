@@ -11,3 +11,7 @@ export const hideCardNumber = (value: number | string, type?: "full" | "partial"
         return `${string.slice(0, 4)} ${separator} ${separator} ${string.slice(12)}`
     }
 }
+
+export const capitalizeFirstLetter = (string: string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}

@@ -15,6 +15,7 @@ export const cardsData: TCard[] = [
         amount: 0,
         system: EPaymentSystem.VISA,
         card: 4588993758490092,
+        card_image: "card_bg.svg",
     }
 ]
 

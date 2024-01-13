@@ -16,6 +16,7 @@ export type TCard = {
     amount: number;
     system: EPaymentSystem;
     card: number;
+    card_image: string;
 }
 
 export type TTransaction = {

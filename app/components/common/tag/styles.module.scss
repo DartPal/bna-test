@@ -1,0 +1,13 @@
+.wrapper {
+  padding: 4px 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 20px;
+  width: max-content;
+
+  &.warning {
+    color: var(--primary-darker);
+    background: var(--primary-light-lighter);
+  }
+}

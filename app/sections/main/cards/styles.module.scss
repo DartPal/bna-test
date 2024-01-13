@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+
+  .row_wrapper {
+    overflow-x: auto;
+
+    .row {
+      gap: 24px;
+      align-items: center;
+      width: max-content;
+      display: flex;
+
+      .new_card {
+        border-radius: 10px;
+        border: 1px solid var(--border-gray);
+        background: var(--bg-light-gray);
+        padding: 27px 21px;
+        width: 312px;
+        height: 196px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 22px;
+
+        & > div {
+          width: 40px;
+          height: 40px;
+          border-radius: 100px;
+          background: var(--main);
+          align-items: center;
+          display: flex;
+          justify-content: center;
+
+          svg {
+            color: var(--primary-light);
+          }
+        }
+      }
+    }
+  }
+}
