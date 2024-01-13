@@ -49,6 +49,11 @@
             align-items: center;
             background: var(--primary-light-lighter);
 
+            @media (max-width: 767px) {
+              width: 40px;
+              height: 40px;
+            }
+
             &.isWallet {
               background: var(--primary-light);
             }
@@ -59,8 +64,13 @@
           }
         }
 
-        .amount.plus {
-          color: var(--success)
+        .amount {
+          @media (max-width: 767px) {
+            font-size: 16px;
+          }
+          &.plus {
+            color: var(--success)
+          }
         }
       }
     }

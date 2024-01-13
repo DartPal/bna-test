@@ -15,7 +15,7 @@ const Cards: FC<IProps> = ({ cards }) => {
 
     return (
         <div className={styles.wrapper}>
-            <Typography variant="title" weight="bold">
+            <Typography variant="h2" weight="bold">
                 {t("title")}
             </Typography>
             <div className={styles.row_wrapper}>

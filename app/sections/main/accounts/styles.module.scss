@@ -5,8 +5,25 @@
   align-items: center;
   min-width: 360px;
 
+  @media (max-width: 1343px) {
+    min-width: 316px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse;
+    margin-top: 32px;
+  }
+
   .add_button {
     width: 100%;
+
+    @media (max-width: 1024px) {
+      width: 320px;
+    }
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
   }
 
   .accounts, .accounts_list {
@@ -14,6 +31,15 @@
     flex-direction: column;
     gap: 16px;
     width: 100%;
+
+    @media (max-width: 1024px) {
+      width: 332px;
+      align-self: flex-start;
+    }
+
+    @media (max-width: 380px) {
+      width: 100%;
+    }
   }
 
   .account_item {
@@ -21,6 +47,12 @@
     border-radius: 8px;
     border: 1px solid var(--border-gray);
     background: var(--bg-light);
+
+    @media (max-width: 767px) {
+      p {
+        font-size: 16px;
+      }
+    }
   }
 
   .add_card {

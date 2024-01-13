@@ -4,11 +4,11 @@
   line-height: 150%;
   color: var(--primary-light);
   text-decoration: none;
-  padding: 16px 32px;
   transition: .3s;
 
   &.isActive, &:hover {
     border-radius: 30px;
     background: var(--secondary);
+    padding: 16px 32px;
   }
 }

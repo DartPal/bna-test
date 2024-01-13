@@ -6,6 +6,10 @@
   border-radius: 20px;
   width: max-content;
 
+  @media (max-width: 767px) {
+    font-size: 10px;
+  }
+
   &.warning {
     color: var(--primary-darker);
     background: var(--primary-light-lighter);
