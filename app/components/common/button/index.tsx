@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import classNames from 'classnames/bind';
 
 interface IProps {
-    variant?: 'default' | 'dark' | 'light';
+    variant?: 'default' | 'dark' | 'light' | 'primary';
     size?: 'default-size' | 'small' | 'large';
     children: ReactNode;
     className?: string;

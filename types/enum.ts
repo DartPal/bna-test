@@ -14,6 +14,6 @@ export enum EPaymentSystem {
 }
 
 export enum ETransactionType {
-    CARD = "card",
-    BANK_ACCOUNT = "bank account"
+    CARD = "Payment",
+    BANK_ACCOUNT = "Transfer from bank"
 }

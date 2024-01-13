@@ -24,4 +24,5 @@ export type TTransaction = {
     name: string;
     date: number;
     amount: number;
+    currency: ECurrency
 }

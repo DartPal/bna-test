@@ -4,6 +4,7 @@ import {TAccount, TBalance, TCard, TTransaction} from '../../../types/types';
 import styles from "./styles.module.scss"
 import Balance from '@sections/main/balance';
 import Cards from '@sections/main/cards';
+import Transactions from '@sections/main/transactions';
 
 interface IProps {
     accounts: TAccount[],
@@ -18,6 +19,7 @@ const MainPageLayout: FC<IProps> = ({ accounts, balances, transactions, cards })
             <div className={styles.left}>
                 <Balance balances={balances} />
                 <Cards cards={cards} />
+                <Transactions transactions={transactions} />
             </div>
             <Accounts accounts={accounts}/>
         </div>

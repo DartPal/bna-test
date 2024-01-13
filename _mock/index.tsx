@@ -35,18 +35,21 @@ export const transactionsData: TTransaction[] = [
         type: ETransactionType.CARD,
         name: "Cineplex Inc.",
         date: 1695588986000,
-        amount: -42.50,
+        amount: -42.5,
+        currency: ECurrency.CANADIAN,
     },
     {
         type: ETransactionType.BANK_ACCOUNT,
         name: "RBC Royal Bank",
         date: 1692478586000,
         amount: 500,
+        currency: ECurrency.CANADIAN,
     },
     {
         type: ETransactionType.CARD,
         name: "Skyline Restaurant",
         date: 1690923386000,
         amount: -110.45,
+        currency: ECurrency.CANADIAN,
     },
 ]

@@ -4,7 +4,7 @@ import classNames from 'classnames/bind';
 
 interface IProps {
     variant?: "h2" | "title" | "subtitle";
-    weight?: "bold" | "regular" | "thin";
+    weight?: "bold" | "regular" | "thin" | "semibold";
     children: ReactNode;
     className?: string;
 }

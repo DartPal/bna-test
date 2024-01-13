@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 48px;
   align-items: center;
-  width: 360px;
+  min-width: 360px;
 
   .add_button {
     width: 100%;
@@ -30,6 +30,7 @@
 
     p {
       position: relative;
+      text-align: left;
 
       &:after {
         content: " ";
