@@ -12,6 +12,10 @@
       width: max-content;
       display: flex;
 
+      @media (max-width: 767px) {
+        gap: 16px;
+      }
+
       .new_card {
         border-radius: 10px;
         border: 1px solid var(--border-gray);

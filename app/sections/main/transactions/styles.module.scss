@@ -20,6 +20,20 @@
       }
     }
 
+    .desktop_show {
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    .mobile_show {
+      display: none;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+
     .table_content {
       width: 100%;
       display: flex;

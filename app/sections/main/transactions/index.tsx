@@ -36,7 +36,7 @@ const Transactions: FC<IProps> = ({ transactions }) => {
                             {t("list.card")}
                         </TableTag>
                     </div>
-                    <Button variant="dark" size="small">
+                    <Button className={styles.desktop_show} variant="dark" size="small">
                         {t("list.show_more")}
                     </Button>
                 </div>
@@ -46,6 +46,9 @@ const Transactions: FC<IProps> = ({ transactions }) => {
                         transaction={item}
                     />)}
                 </div>
+                <Button className={styles.mobile_show} variant="dark" size="small">
+                    {t("list.show_more")}
+                </Button>
             </div>
         </div>
     );
